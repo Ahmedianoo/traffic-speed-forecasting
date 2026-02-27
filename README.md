@@ -31,7 +31,7 @@ This project predicts the **next 5-minute traffic speed** for a selected sensor 
 ---
 
 ## **Modeling**
-- **Algorithm:** Linear regression trained using **Gradient Descent** (`SGDRegressor` from scikit-learn)
+- **Algorithm:** Linear regression trained using **Stochastic Gradient Descent** (`SGDRegressor` from scikit-learn)
 
 ```python
 from sklearn.linear_model import SGDRegressor
