@@ -93,7 +93,9 @@ print(f"Number of iterations completed: {sgdr.n_iter_}, number of weight updates
   ```
 
 **Observation:**  
-Adding the **delta feature** slightly improves test performance while keeping evaluation performance similar. The model effectively captures short-term trends.
+Observation:
+- The model is influenced more by the most recent lagged speeds.
+- Adding the delta feature results in similar evaluation and test performance. 
 
 ---
 
