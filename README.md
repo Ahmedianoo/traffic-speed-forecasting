@@ -93,7 +93,6 @@ print(f"Number of iterations completed: {sgdr.n_iter_}, number of weight updates
   ```
 
 **Observation:**  
-Observation:
 - The model is influenced more by the most recent lagged speeds.
 - Adding the delta feature results in similar evaluation and test performance. 
 
