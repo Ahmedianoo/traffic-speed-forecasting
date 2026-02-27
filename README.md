@@ -1,7 +1,7 @@
 # Traffic Speed Prediction using METR-LA Dataset
 
 ## **Project Overview**
-This project predicts the **next 5-minute traffic speed** for a selected sensor using historical traffic data from the **METR-LA dataset**.
+This project predicts the **next 5-minute traffic speed** using historical traffic data from the **METR-LA dataset**.
 
 - **Goal:** Forecast future traffic speed at a single sensor.  
 - **Problem Type:** Time series regression (supervised learning).  
